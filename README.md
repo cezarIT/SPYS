@@ -1,0 +1,7 @@
+# SPYS
+This code is a simple physics calculator written in Python using the Tkinter library for the GUI. 
+It has several functions that calculate different physical quantities based on user input. 
+The user can select the type of calculation they want to perform using the dropdown menus and can enter the necessary input using the entry widgets. 
+The calculated values are displayed in the labels on the right. The code also includes error handling, logging, and a help page.(wrоte Chat gpt)
+
+also, the Chat GPT neural network was used to write the code
