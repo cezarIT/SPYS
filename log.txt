@@ -1,0 +1,2 @@
+12:34:03 .N 1. Session start
+12:34:05 .N 3. Open help page

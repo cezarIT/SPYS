@@ -1,0 +1,7 @@
+Errors
+
+1хх - Input errors
+101 - No axis selected, select X or Y axis
+102 - No situation selected, choose from 'Body thrown vertically up, Body thrown horizontally, Body thrown at an angle to the horizon'
+103 - No type of square equation selected
+104 - No data entered
