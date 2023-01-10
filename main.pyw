@@ -14,6 +14,10 @@ slog.clear()
 slog.add('Session start', 1)
 #functions
 
+def open_gaus():
+    slog.add('Gauss Distribution Calculator opening', 10)
+    subprocess.run(['python', 'gaus_dist.pyw'], creationflags=subprocess.CREATE_NO_WINDOW)
+
 def g_set():
     set_g()
 
@@ -31,7 +35,6 @@ def about_page():
 def open_sqqu():
     slog.add('square equations solver opening', 5)
     subprocess.run(['python', 'sqqu.pyw'], creationflags=subprocess.CREATE_NO_WINDOW)
-    #subprocess.run(['python', 'sqqu.pyw'])
 
 def button_speed_clicked():
     slog.add('Button_speed clicked!', 6)
@@ -141,6 +144,7 @@ menu_bar.add_cascade(label='Help', menu=help_menu)
 # Algebra menu
 
 alg_menu = Menu(menu_bar, tearoff=0)
+alg_menu.add_command(label='Gauss Distribution Calculator', command= open_gaus)
 alg_menu.add_command(label='square equations solver', command= open_sqqu)
 alg_menu.add_command(label='Windows standart calc', command= win_calc)
 menu_bar.add_cascade(label='Algebra', menu=alg_menu)
